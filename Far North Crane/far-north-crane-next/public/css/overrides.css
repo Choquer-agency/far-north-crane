@@ -1,0 +1,99 @@
+/* Project overrides. Loaded after farnorthcrane.css so rules here win. */
+
+/* Symmetric vertical padding around the navbar row.
+   With align-items:center, this puts equal whitespace above and below
+   the CTA regardless of the logo's natural height. */
+.nav__container {
+  padding-top: 1em;
+  padding-bottom: 1em;
+  align-items: center;
+}
+
+/* Tighten gap between an h2 and the body copy that follows it
+   (e.g. the "Saskatchewan Crane Services Specialists..." section).
+   Real gap = .p-container margin-top (1em) + p margin-top (1em) = 2em.
+   Halve each so the combined gap goes from 2em -> 1em. */
+.p-container,
+.content-container .p-container {
+  margin-top: 0.5em !important;
+}
+
+/* FAQ accordion body uses 1vw which becomes ~3.75px on mobile.
+   Match the regular body copy size on small screens; keep 1vw on desktop. */
+@media (max-width: 991px) {
+  .fs_accordion-1_body {
+    font-size: 1rem;
+  }
+  .fs_accordion-1_paragraph {
+    font-size: 1rem;
+    line-height: 1.5;
+  }
+
+  /* Top-align values grid (icon + h3 + body) so the h3 of every cell starts
+     at the same Y as its row neighbour, instead of being pushed to the bottom
+     by `justify-content: space-between`. */
+  .grid_item {
+    justify-content: flex-start;
+    width: 44%;
+  }
+  .grid-2x2 {
+    column-gap: 6%;
+  }
+  .grid_item .c-services-icon {
+    margin-bottom: 0.75em;
+  }
+
+}
+
+/* Recent Projects: stack image then text on mobile so each spans full width.
+   Row 1 (default) and row 3 (.is--last) already have image first in DOM —
+   just stacking handles them. Row 2 (.is--bottom) has text first in DOM,
+   so reverse it on mobile to keep the image-first order consistent. */
+@media (max-width: 991px) {
+  .container.is--recent-projects .two-column-container,
+  .container.is--recent-projects .two-column-container.is--last {
+    flex-direction: column !important;
+  }
+  .container.is--recent-projects .two-column-container.is--bottom {
+    flex-direction: column-reverse !important;
+  }
+  .container.is--recent-projects .two-column_item,
+  .container.is--recent-projects .two-column_item.is--25,
+  .container.is--recent-projects .two-column_item.is--75,
+  .container.is--recent-projects .two-column_item.is--white {
+    width: 100% !important;
+    margin-bottom: 1.5em;
+  }
+  .container.is--recent-projects .media-wrapper.is--placeholder-projects {
+    width: 100%;
+  }
+  .container.is--recent-projects .media-wrapper.is--placeholder-projects img {
+    width: 100%;
+    height: auto;
+  }
+
+  /* About page: same projects section uses .two-column-stack_item-projects.
+     DOM is content (h3+body) -> image. Reverse so image renders first,
+     and force each child full width. */
+  .two-column-stack_item-projects {
+    flex-direction: column-reverse !important;
+  }
+  .two-column-stack_item-projects .stack_item-projects-content,
+  .two-column-stack_item-projects .stack_item-projects-image {
+    width: 100% !important;
+  }
+  .two-column-stack_item-projects .stack_item-projects-image img {
+    width: 100%;
+    height: auto;
+    display: block;
+  }
+  .two-column-stack_item-projects .stack_item-projects-content {
+    padding-left: 0;
+    padding-right: 0;
+    padding-top: 1.5em;
+  }
+}
+.p-container > p,
+.p-container > p:first-child {
+  margin-top: 0.5em !important;
+}
