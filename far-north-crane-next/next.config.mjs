@@ -18,12 +18,6 @@ const nextConfig = {
         destination: "/heavy-equipment-transport-services-saskatoon",
         permanent: true,
       },
-      {
-        source: "/:path*",
-        has: [{ type: "host", value: "farnorthcrane.com" }],
-        destination: "https://www.farnorthcrane.com/:path*",
-        permanent: true,
-      },
     ];
   },
 };
