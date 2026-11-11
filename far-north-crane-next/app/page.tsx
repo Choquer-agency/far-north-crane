@@ -5,7 +5,7 @@ export const metadata: Metadata = {
   title: "Saskatoon Crane Service - Far North Crane",
   description:
     "Want quality crane service in Saskatoon? Far North Crane is the leading Saskatoon crane service & heavy equipment transport service provider. Get in touch today!",
-  alternates: { canonical: "https://www.farnorthcrane.com" },
+  alternates: { canonical: "https://www.farnorthcrane.com/" },
   openGraph: {
     title: "Saskatoon Crane Service - Far North Crane",
     description:
