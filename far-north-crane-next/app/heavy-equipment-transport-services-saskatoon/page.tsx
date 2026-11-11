@@ -9,6 +9,7 @@ const og = "https://uploads-ssl.webflow.com/606398120ed24f73ec185447/6140ed75476
 export const metadata: Metadata = {
   title,
   description: desc,
+  robots: { index: true, follow: true },
   alternates: {
     canonical:
       "https://www.farnorthcrane.com/heavy-equipment-transport-services-saskatoon",
