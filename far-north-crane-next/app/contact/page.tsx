@@ -3,8 +3,8 @@ import WebflowPage from "@/components/WebflowPage";
 import ContactFormHandler from "@/components/ContactFormHandler";
 
 const desc =
-  "Reach out to the Far North Crane Team with inquiries regarding crane rental or heavy equipment trucking for an upcoming or current project idea you may have.";
-const title = "Contact Us | Far North Crane | Saskatoon";
+  "Call or message Far North Crane in Saskatoon for crane rental, heavy equipment transport and plant maintenance quotes. Costs up-front.";
+const title = "Contact Far North Crane | Crane & Heavy Haul Quotes in Saskatoon";
 const og = "https://uploads-ssl.webflow.com/606398120ed24f73ec185447/6140ed75476eab24ffa5ccd6_open-graph.jpg";
 
 export const metadata: Metadata = {
