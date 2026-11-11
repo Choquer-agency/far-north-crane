@@ -61,6 +61,10 @@ const newSections = `
       <div class="p-container">
         <p>We let you know your costs up-front before you commit to finishing large projects with us. <a href="/contact">Contact us</a> for a quote on your crane rental.</p>
       </div>
+      <h2>Crane Rental for Commercial Sites in Saskatoon</h2>
+      <div class="p-container">
+        <p>If you are searching for crane supply near me, Far North Crane offers commercial crane rental in Saskatoon with the whole job handled from start to finish. We move machinery and materials safely and on-time. Need equipment hauled to site? See our <a href="/heavy-equipment-transport-services-saskatoon">heavy equipment transport</a> services, or review our <a href="/past-projects">past projects</a>.</p>
+      </div>
       <h2>Safety on Site</h2>
       <div class="p-container">
         <p>Workplace safety matters on every lift. The Government of Saskatchewan publishes guidance on <a href="https://www.saskatchewan.ca/business/safety-in-the-workplace" target="_blank" rel="noopener">safety in the workplace</a>.</p>
