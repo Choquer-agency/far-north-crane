@@ -46,6 +46,7 @@ export default function RootLayout({
         <Script id="wf-modjs" strategy="beforeInteractive">
           {`!function(o,c){var n=c.documentElement,t=" w-mod-";n.className+=t+"js",("ontouchstart"in o||o.DocumentTouch&&c instanceof DocumentTouch)&&(n.className+=t+"touch")}(window,document);`}
         </Script>
+        <script src="https://heycliff.com/leads.js" data-site="cls_6zg2rwory97152rjdxqf" async></script>
       </head>
       <body>
         {/* GTM noscript */}
