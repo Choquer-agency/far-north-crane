@@ -8,6 +8,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
     "/about",
     "/contact",
     "/past-projects",
+    "/blog",
     "/heavy-equipment-transport-services-saskatoon",
     "/industrial-plant-maintenance-saskatoon",
     "/residential-and-commercial-crane-rentals-saskatoon",
