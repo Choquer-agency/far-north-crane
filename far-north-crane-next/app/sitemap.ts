@@ -12,5 +12,6 @@ export default function sitemap(): MetadataRoute.Sitemap {
     "/heavy-equipment-transport-services-saskatoon",
     "/industrial-plant-maintenance-saskatoon",
     "/residential-and-commercial-crane-rentals-saskatoon",
+    "/blog/truck-cranes-vs-flatbed-hauling",
   ].map((p) => ({ url: `${base}${p}` }));
 }
