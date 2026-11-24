@@ -19,6 +19,11 @@ export const metadata: Metadata = {
 // Add each article here as it publishes.
 const articles = [
   {
+    href: "/blog/crane-certification-saskatchewan",
+    title:
+      "Crane Certification in Saskatchewan: What Operator Tickets Mean and How to Check Them",
+  },
+  {
     href: "/blog/how-long-can-you-rent-a-crane",
     title:
       "How Long Can You Rent a Crane? A Saskatoon Guide to Rental Periods, Operators and Site Assessments",
