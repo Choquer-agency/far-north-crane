@@ -13,6 +13,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
     "/industrial-plant-maintenance-saskatoon",
     "/residential-and-commercial-crane-rentals-saskatoon",
     "/blog/truck-cranes-vs-flatbed-hauling",
+    "/blog/how-to-choose-a-crane-company",
     "/blog/crane-certification-saskatchewan",
   ].map((p) => ({ url: `${base}${p}` }));
 }
