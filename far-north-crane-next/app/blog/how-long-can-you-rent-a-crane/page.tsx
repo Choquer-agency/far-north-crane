@@ -26,7 +26,7 @@ const faqs: [string, string][] = [
   ],
   [
     "Can I operate a rented crane myself?",
-    "Whoever runs the crane needs the training or certification their jurisdiction requires, according to CCOHS. Most mobile crane rentals come with an operator.",
+    "Whoever runs the crane needs the training or certification their jurisdiction requires, according to CCOHS. Most mobile crane rentals come with an operator. Far North Crane's rentals include a qualified operator [CONFIRM WITH FAR NORTH CRANE].",
   ],
 ];
 
@@ -40,8 +40,8 @@ const ld = [
     datePublished: "2026-11-25",
     dateModified: "2026-11-25",
     image: ["https://www.farnorthcrane.com" + img],
-    author: { "@type": "Organization", name: "Far North Crane" },
-    publisher: { "@type": "Organization", name: "Far North Crane" },
+    author: { "@type": "Organization", name: "Far North Crane & Rigging" },
+    publisher: { "@type": "Organization", name: "Far North Crane & Rigging" },
   },
   {
     "@context": "https://schema.org",
@@ -91,7 +91,7 @@ const article = `<section class="section"><div class="container"><div class="con
 <p>Either way, the person at the controls has to be qualified. The <a href="https://www.ccohs.ca/oshanswers/safety_haz/materials_handling/crane_op.html" target="_blank" rel="noopener">general crane safety guidance from the Canadian Centre for Occupational Health and Safety (CCOHS)</a> says the operator must have the training, qualifications or certification their jurisdiction requires before moving a load.</p>
 <h3 id="who-handles-rigging-and-signalling">Who handles rigging and signalling</h3>
 <p>The operator is not working alone. During the lift, the operator takes signals from one signaller in charge of the lift, using signals agreed in advance. Anyone on site may give a stop signal.</p>
-<p>Ask who supplies the rigging and the signaller when you book. That way nobody assumes the other side has it covered. You can read about <a href="/residential-and-commercial-crane-rentals-saskatoon">operated commercial crane rentals in Saskatoon</a> on our rentals page.</p>
+<p>Ask who supplies the rigging and the signaller when you book. That way nobody assumes the other side has it covered. Far North Crane's page on <a href="/residential-and-commercial-crane-rentals-saskatoon">operated commercial crane rentals in Saskatoon</a> says its "crane rentals come with an experienced and qualified crane operator" [CONFIRM WITH FAR NORTH CRANE].</p>
 
 <h2 id="why-an-on-site-assessment-comes-before-the-lift">Why an on-site assessment comes before the lift</h2>
 <p>A crane lift is planned before the crane shows up. CCOHS lists the checks that come before a load is moved, and a site visit is where most of them happen.</p>
